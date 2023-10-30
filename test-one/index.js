@@ -1,20 +1,20 @@
-import { printFishBash } from "./functions/one.js";
-import { sortArray } from "./functions/two.js";
-import { isPalindrome } from "./functions/three.js";
+import { fishAndBash } from "./functions/one.js";
+import { sortArrayNum } from "./functions/two.js";
+import { reverseString } from "./functions/three.js";
 
 console.log("Test Case 1:");
-printFishBash(9);
+fishAndBash(9);
 console.log("Test Case 2:");
-printFishBash(10);
+fishAndBash(10);
 console.log("Test Case 3:");
-printFishBash(30);
+fishAndBash(30);
 
 console.log("Test Case 4:");
-console.log(sortArray([5, 2, 9, 1, 5, 6], true));
+console.log(sortArrayNum([5, 2, 9, 1, 5, 6], true));
 console.log("Test Case 5:");
-console.log(sortArray([5, 2, 9, 1, 5, 6], false));
+console.log(sortArrayNum([5, 2, 9, 1, 5, 6], false));
 
 console.log("Test Case 6:");
-console.log(isPalindrome("radar"));
+console.log(reverseString("radar"));
 console.log("Test Case 7:");
-console.log(isPalindrome("hello"));
+console.log(reverseString("hello"));
